@@ -1,0 +1,14 @@
+import math
+
+diaidade = int
+ano = int
+mes = int
+dia_nasc = int(input("Digite quantos dias tem de vida :"))
+
+ano= math.trunc(dia_nasc / 365)
+mes = math.trunc((dia_nasc % 365) / 30)
+diaidade = math.trunc((dia_nasc % 365) % 30)
+
+print ("sua idade =", ano,"anos")
+print (mes, "meses")
+print(diaidade,"dias de idade")
