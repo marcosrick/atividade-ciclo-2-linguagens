@@ -1,0 +1,14 @@
+a = int(input( 'primeiro valor'))
+b = int(input( 'segundo valor'))
+c = int(input( 'terceiro valor'))
+area = int
+if a < b + c and b < a + c and c < a + b:
+    area = (b * a) // 2
+    print( ' os valores acima formam um triangulo')
+    print(' a area do triangulo e =',area)
+    if a > b + c:
+     print(' os valores acima nao formam triangulo algum')
+
+else:
+    print ('os valores acima nao podem formar um triangulo')
+    print ('os valores digitados foram' ,a ,b ,c,)
