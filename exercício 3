@@ -1,0 +1,9 @@
+num1 = int(input('digite um numero'))
+num2 = int(input('digite um numero'))
+num3 = int(input('digite um numero'))
+numm = num1
+if (num2 < numm):
+        numm = num2
+        if ( num3 < numm):
+            numm = num3
+print ('o menor valor digitado foi =', numm)
