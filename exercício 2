@@ -12,5 +12,5 @@ if a >= (b+c) or b >= (a+c) or c >= (a+b):
     print('os valores acima nao podem formar um triangulo')
 else:
     p = (a + b + c) / 2
-    area = math.sqrt(p*(p-a)(p-b)(p-c))
+    area = math.sqrt(p*(p-a)*(p-b)*(p-c))
     print(' a area do triangulo e = {:.2f}' .format(area) )
